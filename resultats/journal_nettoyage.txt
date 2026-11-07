@@ -1,0 +1,6 @@
+2026-11-07 10:02:46,443 - WARNING - Prix invalide dans Marché Lagune
+2026-11-07 10:02:46,443 - WARNING - Prix invalide dans Marché Lagune
+2026-11-07 10:02:46,444 - WARNING - Prix invalide dans Baobab Shop
+2026-11-07 10:19:46,044 - WARNING - Prix invalide dans Marché Lagune
+2026-11-07 10:19:46,044 - WARNING - Prix invalide dans Marché Lagune
+2026-11-07 10:19:46,045 - WARNING - Prix invalide dans Baobab Shop
