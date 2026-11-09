@@ -5,10 +5,16 @@ class Synthese:
         if comparatif.empty:
             return None
 
+        comparatif = comparatif.copy()
+
+        comparatif["est_moins_cher"] = (
+            comparatif["magasin"] == comparatif["magasin_moins_cher"]
+        )
+
         statistiques = comparatif.groupby("magasin").agg(
             nombre_fois_moins_cher=(
-                "magasin_moins_cher",
-                lambda x: (x == x.name).sum()
+                "est_moins_cher",
+                "sum"
             ),
             ecart_moyen=(
                 "ecart_pourcentage",

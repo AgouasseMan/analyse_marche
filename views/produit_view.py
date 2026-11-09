@@ -6,7 +6,6 @@ class ProduitView:
 
         print(catalogue.to_string(index=False))
 
-        print("\n============================================")
 
     def rechercher_produit(self, catalogue):
 
